@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&family=Roboto:ital,wght@0,100;0,300;0,700;1,400&display=swap");
+body {
+  background-color: #fefefe;
+  font-family: "Oswald", sans-serif;
+}
+/* navigation */
+.navi {
+  margin-top: 50px;
+}
+.navi h5 {
+  color: rgb(143, 143, 143);
+  font-size: 12px;
+  font-weight: 600;
+  padding-left: 50px;
+}
+.navi1 {
+  display: flex;
+  margin-left: 50px;
+}
+.navi1 h1 {
+  font-weight: 900;
+  font-size: 25px;
+  display: flex;
+}
+.navi1 img {
+  width: 50px;
+  margin-left: 60%;
+  top: 60px;
+  position: absolute;
+  border-radius: 40px;
+}
+/* circle information */
+.infoC {
+  z-index: 9999;
+  left: 340px;
+  bottom: 30px;
+}
+.infoC svg {
+  color: rgb(68, 68, 68);
+}
+.flatI {
+  left: 343px;
+  bottom: -10px;
+  width: 40px;
+  height: 200px;
+  border-radius: 20px;
+  background-color: transparent;
+  opacity: 0;
+}
+.flatI a svg {
+  margin-top: 15px;
+}
+.flatI a:nth-child(1) svg {
+  color: #b73f8b;
+}
+.flatI a:nth-child(2) svg {
+  color: #2334eb;
+}
+.flatI a:nth-child(3) svg {
+  color: #1c9cea;
+}
+/* nav TopUp */
+.navTU {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.navTU::-webkit-scrollbar {
+  width: 0;
+}
+
+.navTU .item {
+  min-width: 550px;
+  line-height: 110px;
+  text-align: center;
+  height: 337px;
+}
+.navTU .item img {
+  width: 10px;
+  border-radius: 25px;
+  margin-top: 50px;
+  position: relative;
+}
+.navTU .ml {
+  margin-right: -765px;
+}
+/* choise TopUp */
+/* pubg */
+.JUcho1 {
+  margin-bottom: -35px;
+}
+.JUcho1 h1 {
+  padding-left: 65px;
+  font-weight: bold;
+  font-size: 24px;
+}
+.cho11 {
+  display: flex;
+  margin-bottom: 40px;
+  margin-left: 50px;
+  width: 300px;
+  height: 90px;
+  border-radius: 10px;
+}
+.cho11:nth-child(1) {
+  margin-top: 70px;
+}
+.cho11 img {
+  width: 90px;
+  height: 90px;
+  border-radius: 20px;
+}
+.cho11 div {
+  margin-left: 20px;
+}
+.cho11 div p {
+  margin-top: 15px;
+  margin-bottom: -15px;
+}
+.cho11 div h5 {
+  font-weight: bold;
+  font-size: 22px;
+}
+/* mobile legend */
+.cho2 {
+  position: absolute;
+  top: 489px;
+  z-index: 99;
+}
+/* check choice */
+.checkCho,
+.checkCho1 {
+  position: sticky;
+  left: 400px;
+  color: rgb(173, 173, 173);
+}
+.checkCho1 {
+  color: rgb(0, 0, 0);
+}
+/* buy botton */
+.buy {
+  width: 300px;
+  height: 50px;
+  bottom: -50px;
+  left: 30px;
+  border-radius: 20px;
+  background-color: rgb(0, 170, 0);
+  display: flex;
+}
+.buy p,
+.buy svg {
+  margin-top: 13px;
+  font-size: 15px;
+  color: white;
+}
+.buy p:nth-child(1) {
+  margin-left: 50px;
+}
+.buy p:nth-child(2) {
+  margin-right: 70px;
+}
+.buy svg {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+/* yakin atau tidak yakin */
+.yakinBuy {
+  display: flex;
+  display: none;
+}
+.yakinBuy div {
+  width: 100px;
+  height: 30px;
+  margin-left: 68px;
+  margin-bottom: 90px;
+  border-radius: 20px;
+  background-color: rgb(68, 68, 68);
+  text-align: center;
+  color: white;
+  box-shadow: 2px 2px 2px rgb(211, 211, 211);
+}
+.yakinBuy div:nth-child(2) {
+  margin-left: 30px;
+}
+.textYakin {
+  margin-bottom: 130px;
+  margin-left: 40px;
+  color: rgb(61, 61, 61);
+  font-size: 18px;
+  font-weight: 800;
+  text-shadow: 1px 1px 2px white;
+  display: none;
+}
+/* input  no id ml/pubg*/
+#inputML,
+#inputPUBG,
+.noteMLPUBG {
+  position: relative;
+  margin-left: 50px;
+  width: 240px;
+  border-radius: 5px;
+  display: none;
+  margin-bottom: 10px;
+}
+#inputML,
+#inputPUBG {
+  padding-left: 10px;
+}
+.noteMLPUBG {
+  color: rgb(49, 49, 49);
+  font-weight: 800;
+  text-shadow: 1px 1px 2px white;
+}
+.bgNote button {
+  margin-left: 290px;
+  width: 50px;
+  height: 28px;
+  border-radius: 5px;
+  background-color: rgb(124, 124, 124);
+  color: white;
+  top: -38px;
+  position: relative;
+}
+.bgNote {
+  display: none;
+  position: absolute;
+  padding-top: 200px;
+  top: 0px;
+  width: 100%;
+  height: 900px;
+  background-color: rgba(0, 0, 0, 0.349);
+  z-index: 999;
+}
+/* settings */
+@media (max-width: 767.98px) {
+  .pembungkus {
+    display: block;
+  }
+  .webMaintance {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .pembungkus {
+    display: none;
+  }
+  .webMaintance {
+    margin-top: 100px;
+    margin-left: 50px;
+    display: block;
+  }
+}
+
+.webMaintance {
+  margin-top: 100px;
+  margin-left: 50px;
+}
