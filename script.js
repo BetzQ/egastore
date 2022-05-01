@@ -22,6 +22,7 @@ let inputML = document.getElementById("inputML");
 let inputPUBG = document.getElementById("inputPUBG");
 let btnInput = document.querySelector(".btnInput");
 let btnInput1 = document.querySelector(".btnInput1");
+let pembungkus = document.querySelector(".pembungkus");
 
 flatI.style.opacity = "0";
 flatI.style.height = "140px";
@@ -398,14 +399,8 @@ function pindahKeWa() {
   buy.style.bottom = "-50px";
   buy.style.width = "200px";
   buy.style.left = "60px";
-  // Get the current page scroll position
-  scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-  (scrollLeft = window.pageXOffset || document.documentElement.scrollLeft),
-    // if any scroll is attempted,
-    // set this to the previous value
-    (window.onscroll = function () {
-      window.scrollTo(scrollLeft, scrollTop);
-    });
+  pembungkus.style.display = "none";
+  bgNote.style.display = "block";
   if (topup2 > 0 && !topup1 > 0) {
     bgNote.style.display = "block";
     inputML.style.display = "block";
