@@ -228,9 +228,19 @@ body {
   padding-top: 200px;
   top: 0px;
   width: 100%;
-  height: 900px;
+  height: 100%;
   background-color: rgba(0, 0, 0, 0.349);
   z-index: 999;
+}
+#patokanPagar {
+  width: 50px;
+  height: 50px;
+  top: -50px;
+  background-color: black;
+  position: absolute;
+}
+.xxx {
+  padding-top: 20px;
 }
 /* settings */
 @media (max-width: 767.98px) {
